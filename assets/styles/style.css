@@ -48,15 +48,13 @@ a.nav-item.nav-link{
   background-color: #990000;
 
 }
-
-
 .carousel-img{
   width:100%;
   height: auto;
 }
 .feature-img{
   width:100%;
-  height: 280px;
+  height: 330px;
 }
 .feature-col{
   height: 480px;
@@ -69,6 +67,7 @@ footer{
   height:70px;
   background-color:#800000;
   color: white;
+  margin-top:8rem;
 }
 .footer-content{
   margin-top:20px;
@@ -86,4 +85,9 @@ button.btn{
     color: white;
     font-weight: bold;
 
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: white !important;
+    text-decoration: none;
+    background-color:#990000;
 }

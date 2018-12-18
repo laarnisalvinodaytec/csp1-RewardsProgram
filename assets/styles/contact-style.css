@@ -1,0 +1,19 @@
+*{
+  color: white;
+}
+body{
+  background-color: white;
+}
+input.form-group {
+    width: 50%;
+    height:30px;
+}
+textarea.form-group {
+    width: 50%;
+    height: 200px;
+}
+input.submit {
+    width: 25%;
+    height: 30px;
+}
+

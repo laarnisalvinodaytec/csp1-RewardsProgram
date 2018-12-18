@@ -1,23 +1,23 @@
-*{
-  box-sizing: border-box;
- }   
- 
-
-body{
-  background-image: url('../images/images.jpg');
+body, html {
   height: 100%;
-  margin: 0px;
-  padding:0px;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-repeat: no-repeat;
- 
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .bg-image {
-
+  /* The image used */
+  background-image: url("../images/images.jpg");
+  
+  /* Add the blur effect */
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  height: 100%; 
+  
+  /* Full height */
+  height: 1365px; 
   
   /* Center and scale the image nicely */
   background-position: center;
@@ -27,42 +27,20 @@ body{
 
 /* Position text in the middle of the page/image */
 .bg-text {
- 
-  color: #333;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
   font-weight: bold;
+  border: 1px solid #f1f1f1;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  padding: 0px;
+  width: 80%;
+  padding: 20px;
   text-align: center;
-  width:65%;
-
- }  
- p.tagline{
-  font-size: 60px;
-  text-align: center;
-  margin-top:10rem;
-  color:#800000;
-  font-weight: bolder;
- }
- 
- h4{
-  color: white;
-   text-decoration:none;
-   height:50px;
-   background-color:#800000;
-
- }
- h4.view{
-  margin-top:17rem;
-  padding-top:6%;
-  font-weight: bold;
-  border-radius: 5px;
- }
-
- a:visited{
-  color: white;
- }
- 
+}
+h1{
+  font-size: 50px;
+}
