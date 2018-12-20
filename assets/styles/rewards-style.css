@@ -12,8 +12,21 @@ img.col-photo{
   height: 370px;
   margin:auto;
   margin-top:5rem;
+  border-radius: 5px;
 }
 
 .figcaption-content{
 	font-size: 20px;
+}
+.reward-item{
+	text-align: center;
+}
+figure{
+	margin-top:-5rem !important;
+}
+h3.reward-item {
+    margin-top: 5rem;
+}
+.item-list{
+	text-align: center;
 }

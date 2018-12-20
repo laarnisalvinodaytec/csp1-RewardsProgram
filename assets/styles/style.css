@@ -9,7 +9,7 @@
       background-color:#111109 !important;
   }
   nav.navbar.navbar-expand-lg {
-    background-color: #800000;
+    background-color: #4d0000;
     border-radius: 5px;
 }
 a.navbar-brand{
@@ -40,11 +40,11 @@ a.nav-item.nav-link{
 }
 
 .navbar a:hover {
-  background: #990000;
+  background: #660000;
   color:white;
 }
 .nav-link.active{
-  background-color: #990000;
+  background-color: #660000;
 
 }
 .carousel-img{
@@ -63,9 +63,13 @@ a.nav-item.nav-link{
   margin-top:20px;
   color:white;
 }
+a.reward-link{
+  text-decoration: none !important;
+  color:white !important;
+}
 footer{
   height:70px;
-  background-color:#800000;
+  background-color:#4d0000;
   color: white;
   margin-top:8rem;
 }
@@ -115,7 +119,7 @@ a.up:hover{
 
 button.btn{
     margin-top: 20px;
-    background-color: #800000;
+    background-color: #4d0000;
     color: white;
     font-weight: bold;
 
