@@ -30,3 +30,15 @@ h3.reward-item {
 .item-list{
 	text-align: center;
 }
+button.btn.btn-primary {
+    border: 0px;
+}
+.dropdown{
+  text-align: center;
+}
+.dropdown::before{
+  content:"Sort by";
+}
+button.btn.btn-primary.dropdown-toggle {
+    margin-top: 2px;
+}
