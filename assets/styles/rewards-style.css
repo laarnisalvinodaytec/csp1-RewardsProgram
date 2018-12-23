@@ -30,7 +30,7 @@ h3.reward-item {
 .item-list{
 	text-align: center;
 }
-button.btn.btn-primary {
+button.btn.btn-box {
     border: 0px;
 }
 .dropdown{
@@ -39,6 +39,33 @@ button.btn.btn-primary {
 .dropdown::before{
   content:"Sort by";
 }
-button.btn.btn-primary.dropdown-toggle {
+button.btn.btn-box.dropdown-toggle {
     margin-top: 2px;
+}
+button.btn.btn-box {
+    margin-top: -1rem;
+}
+h5#ModalLongTitle {
+    color: black;
+}
+.Specifications{
+  color: black;
+}
+.strong-specs{
+  color:black;
+}
+.modal-points{
+  color: black;
+}
+.fas .fa-coins .modal{
+  color: black;
+}
+.package{
+  color:black;
+}
+.coffee-maker-specs{
+  color:black;
+}
+a#rewards {
+    color: white;
 }

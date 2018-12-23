@@ -45,18 +45,18 @@ h1{
   font-size: 50px;
 }
  a {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: white;
     text-decoration:none;
-    background-color: #286090;
+    background-color: #4d0d07;
     height: 20px;
     padding: 10px 10px 10px 10px;
     margin-top: 2rem;
     border-radius: 5px;
   } 
   a:hover{
-    background-color:#1b4a77;
-    color: white;
+    background-color:#976154;
+    color: #4d0d07 ;
     text-decoration:none;
   }

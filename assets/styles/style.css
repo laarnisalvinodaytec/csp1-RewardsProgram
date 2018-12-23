@@ -78,16 +78,6 @@ footer{
   margin-top:20px;
 }
 
-.arrow{
-  background-color: #101109;
-  height: 100px;
-  width:50px;
-  position: fixed;
-    top:95%;
-    left:75%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
-}
-.arrow:hover{
-  background-color: white;
 
 }
 #home{
@@ -99,17 +89,7 @@ footer{
 #about{
   color:white;
 }
-a.up{
-     font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    color: red;
-}
-a.up:hover{
-  background-color: white;
-  text-decoration: none;
-  color:red;
-}
+
 .div-icon{
   width: 20px;
   height: 2px;
@@ -129,4 +109,9 @@ button.btn{
     text-decoration: none;
     background-color:#990000;
 }
-
+i.fa.fa-chevron-up {
+    color: red;
+}
+a#home {
+    color: white;
+}
