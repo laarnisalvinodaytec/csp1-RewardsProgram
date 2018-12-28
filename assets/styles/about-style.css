@@ -4,6 +4,7 @@
 .about{
   text-align: center;
   margin-top: 0px;
+  font-weight: bold;
 }
 .about-content{
   font-size: 20px;
@@ -15,16 +16,29 @@
 .about-image{
   width:100%;
   height:100%
+  margin-top:-1rem;
+}
+p.about-content{
+  text-align: justify;
 }
 img.about-image {
     margin-top: 8rem;
+    margin-bottom: -10rem;
 }
 .about-footer{
   margin-top:15rem;
   text-align: center;
 }
 
-#about{
-  color:white;
+.about-team{
+  text-align: center;
+  margin-top: 3rem;
+  font-weight: bold;
 }
-
+h1.about-team {
+  margin-top:3rem;
+  margin-bottom: -6rem;
+}
+p.footer-content {
+    text-align: center;
+}

@@ -31,6 +31,7 @@ a.navbar-brand{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
 }
 a.nav-item.nav-link.active {
     border-radius: 5px;
@@ -42,10 +43,20 @@ a.nav-item.nav-link{
 .navbar a:hover {
   background: #660000;
   color:white;
+  font-weight: bold;
 }
 .nav-link.active{
   background-color: #660000;
 
+}
+i.fas.fa-gift{
+  font-size: 35px;
+  color: grey;
+  margin-top: -1rem;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2.5rem !important;
+    padding-left: 2.5rem !important;
 }
 .carousel-img{
   width:100%;
@@ -56,12 +67,19 @@ a.nav-item.nav-link{
   width:100%;
   height: 330px;
 }
-.feature-col{
-  height: 480px;
-}
+
 .description{
-  margin-top:20px;
+  margin-top:3rem;
   color:white;
+  font-weight: bold;
+  text-align: justify;
+}
+.description-title{
+  text-align: center;
+  margin-top:3rem;
+  color:white;
+  font-weight: bold;
+
 }
 a.reward-link{
   text-decoration: none !important;
@@ -76,6 +94,7 @@ footer{
 
 .footer-content{
   margin-top:20px;
+  text-align: center;
 }
 
 
@@ -109,9 +128,25 @@ button.btn{
     text-decoration: none;
     background-color:#990000;
 }
-i.fa.fa-chevron-up {
-    color: red;
-}
+
 a#home {
     color: white;
+}
+div.arrow {
+    position: fixed;
+    top: 95%;
+    width: 2%;
+    height: 6%;
+    margin-bottom: 2rem;
+
+}
+i.fa.fa-arrow-up {
+    color: red;
+    font-weight: bolder;  
+}
+button.footer-button{
+  font-size: 24px;
+}
+button{
+  background-color: gray;
 }

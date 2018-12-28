@@ -27,8 +27,16 @@ figure{
 h3.reward-item {
     margin-top: 5rem;
 }
+h2.item-list{
+  margin-bottom: 3rem;
+}
 .item-list{
 	text-align: center;
+  font-weight: bold;
+}
+p.item-list{
+  margin-bottom: 3rem;
+  text-align: justify;
 }
 button.btn.btn-box {
     border: 0px;
@@ -37,7 +45,8 @@ button.btn.btn-box {
   text-align: center;
 }
 .dropdown::before{
-  content:"Sort by";
+  content:"Choose your reward";
+  font-weight: bold;
 }
 button.btn.btn-box.dropdown-toggle {
     margin-top: 2px;
@@ -68,4 +77,22 @@ h5#ModalLongTitle {
 }
 a#rewards {
     color: white;
+}
+#electronics{
+  font-weight: bold;
+}
+#experienceandtravel{
+  font-weight: bold;
+}
+#homeappliances{
+  font-weight: bold;
+}
+#healthandbeauty{
+  font-weight: bold;  
+}
+#flowers{
+  font-weight: bold;
+}
+#foodanddrinks{
+  font-weight: bold;
 }
