@@ -32,11 +32,12 @@ h2.item-list{
 }
 .item-list{
 	text-align: center;
-  font-weight: bold;
+ 
 }
 p.item-list{
   margin-bottom: 3rem;
   text-align: justify;
+  font-size:20px;
 }
 button.btn.btn-box {
     border: 0px;

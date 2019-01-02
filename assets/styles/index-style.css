@@ -17,7 +17,7 @@ body, html {
   -webkit-filter: blur(8px);
   
   /* Full height */
-  height: 680px; 
+  height: 1000px; 
   
   /* Center and scale the image nicely */
   background-position: center;
@@ -40,12 +40,13 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
-  border-radius: 5px;
+ /* border-radius: 5px;*/
 }
 h1{
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 5rem;
+  margin-top:5rem;
 }
  a {
     font-size: 25px;
@@ -63,3 +64,10 @@ h1{
     color: #4d0d07 ;
     text-decoration:none;
   }
+.demo-button{
+  position: absolute;
+  top:52%;
+  left:50%;
+  
+    
+}
